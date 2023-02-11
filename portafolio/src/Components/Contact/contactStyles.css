@@ -1,0 +1,52 @@
+.contactContainer{
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  flex-wrap: wrap; 
+  background-color: #1c4566;
+  height: 100%;
+  padding: 10px;
+  gap: 5px;
+}
+.contact-h1{
+  color: rgb(216, 212, 212)
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email{
+  margin: 20px;
+  width: 350px;
+  border-radius: 10px;
+}
+.mensaje{
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+}
+.enviar{
+ margin: 20px;
+ width: 60px;
+ background: #8da6bb;
+ border-radius: 8px;
+}
+.redes{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  height: 100%;
+  padding: 10px;
+  gap: 5px;
+}
+.linkedin{
+  height: 50px;
+}
+.gitHub{
+  height: 50px;
+}
