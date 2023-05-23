@@ -1,6 +1,6 @@
 import React from "react";
 import "../MainScreen/MainStyle.css";
-import image from "../assets/notebook4.png";
+import fotocv from "../assets/fotocv.png";
 
 function Main() {
   return (
@@ -13,7 +13,7 @@ function Main() {
         />
       </div>
       <div className="img-noteContainer">
-        <img className="img-note" src={image} />
+        <img className="img-note" src={fotocv} />
         <h1 className="tittle">
           i'm Carlos De Santis
           <br />

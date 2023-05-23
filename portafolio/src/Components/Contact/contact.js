@@ -7,14 +7,15 @@ export default function Contact() {
   return (
     <div className="contactContainer">
           <h1 name="contact" className="contact-h1">Contact</h1>
-          <form className='form' action='mailto:desantiscarlos95@gmail.com' method="post" enctype="text/plain">
-            <input className='email' type="email" placeholder='Escribe tu email'></input>
-            <input className='mensaje' type="text" placeholder='Escribe tu mensaje'></input>
+          <form  className='form' action="https://formsubmit.co/a04ecfa5f0fa30d56a87fcd52f153bbc" method="POST">
+            <input className='nombre' type="text" name="nombre" placeholder='Escribe tu nombre'></input>
+            <input className='nombre' type="email" name="email" placeholder='Escribe tu mail'></input>
+            <input className='mensaje' type="text" name="mensaje" placeholder='Escribe tu mensaje'></input>
             <button type='submit' className='enviar' >Enviar</button>
           </form>
           <div className='redes'>
-          <a href='www.linkedin.com/in/carlos-francisco-de-santis-5760a71b5'><img className="linkedin" src={linkedin} /></a>
-          <a href='https://github.com/Charly77955'><img className="gitHub" src={gitHub} /></a>
+          <a href='https://linkedin.com/in/carlos-de-santis87'><img className="linkedin" src={linkedin} alt='' /></a>
+          <a href='https://github.com/Charly77955'><img className="gitHubContact" src={gitHub} alt=''/></a>
           </div>
         </div>
   )
