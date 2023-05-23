@@ -9,19 +9,74 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding: 15px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .h5-tittle{
+    margin: 60px 0px 0px 10px;
+    color:  rgb(182, 173, 173)
   }
   .portafolio-item{
     
     flex-grow:0;
     align-self:auto;
     width: 280px;
-    height: 220px; 
-    border: 3px solid #ffcc80;
-    border-radius: 10px;
-    margin: 20px;
+    height: 380px; 
+    margin: 10px 0px 50px 0px;
   }
   .portafolio-h1{
-    color: rgb(216, 212, 212)
+    color: rgb(216, 212, 212);
+    font-size: 40px;
+    margin: 10px 10px 50px 20px;
   }
-  
+  .detailTittleInmo{
+    color: rgb(168, 163, 156);
+  }
+  .detailTittleMenu{
+    color: rgb(168, 163, 156);
+    margin: 10px 10px 10px 10px;
+  }
+  .projectDetails{
+    margin: 20px 10px 0px 30px;
+  }
+  .reactNativeProject{
+    height: 40px;
+    width: 60px;
+  }
+  .cssProject{
+    height: 40px;
+    width: 50px;
+  }
+  .detailTittleVuelos{
+    color: rgb(168, 163, 156);
+    margin: 10px 10px 10px 10px;
+  }
+  .detailsLogoVuelos{
+    margin: 10px 10px 0px 50px;
+  }
+  .reactJsClima{
+    height: 40px;
+    width: 60px;
+  }
+  .detailsLogoClima{
+    margin: 10px 10px 0px 0px;
+  }
+  .detailTittleClima{
+    color: rgb(168, 163, 156);
+  }
+  .clip4{
+    margin: 0px auto;
+    object-fit: fill;
+    border-radius: 10px;
+  }
+  .sassProject{
+    height: 40px;
+    width: 50px;
+     }
+     .gitHub{
+      height: 40px;
+      margin: auto 130px ;
+    }
+    .gitHub:hover{
+      opacity: 0.5;
+    }

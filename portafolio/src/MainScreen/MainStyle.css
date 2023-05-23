@@ -27,16 +27,6 @@
 .img-noteContainer{
   display: flex;
   justify-content: center; 
-    align-items: flex-start;  
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    height: 100%;
-    padding: 10px;
-    gap: 5px;
-}
-.img-noteContainer{
-  display: flex;
-  justify-content: center; 
   align-items: center; 
   flex-direction: row; 
   flex-wrap: wrap; 
@@ -45,6 +35,8 @@
 }
 .img-note{
 height: 200px;
+border-radius: 100px;
+margin: auto 50px;
 }
 .barra1{
   display:flex;
@@ -85,7 +77,7 @@ height: 200px;
   align-self:auto;
   width: 280px;
   height: 220px; 
-  border: 3px solid #ffcc80;
+  
   border-radius: 10px;
   margin: 20px;
 }

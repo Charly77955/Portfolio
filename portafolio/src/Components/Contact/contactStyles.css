@@ -18,13 +18,14 @@
   justify-content: center;
   align-items: center;
 }
-.email{
-  margin: 20px;
+.nombre{
+  margin: 10px;
   width: 350px;
   border-radius: 10px;
 }
 .mensaje{
   height: 50px;
+  margin: 10px;
   width: 350px;
   border-radius: 10px;
 }
@@ -33,6 +34,9 @@
  width: 60px;
  background: #8da6bb;
  border-radius: 8px;
+}
+.enviar:hover{
+  background: lightblue;
 }
 .redes{
   display: flex;
@@ -47,6 +51,12 @@
 .linkedin{
   height: 50px;
 }
-.gitHub{
+.linkedin:hover{
+  opacity: 0.5;
+}
+.gitHubContact{
   height: 50px;
+}
+.gitHubContact:hover{
+  opacity: 0.5;
 }
