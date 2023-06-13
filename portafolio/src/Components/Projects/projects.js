@@ -9,17 +9,10 @@ import css from "../../assets/css.png";
 import reactJs from "../../assets/reactJs.png"
 import sass from "../../assets/sass.png"
 import gitHub from "../../assets/gitHub.png"
+import ReactPlayer from 'react-player';
 
 export default function Projects() {
-  const clip = document.querySelectorAll(".clip");
-  for (let i = 0; i < clip.length; i++) {
-    clip[i].addEventListener("mouseenter", function (e) {
-      clip[i].play();
-    });
-    clip[i].addEventListener("mouseout", function (e) {
-      clip[i].pause();
-    });
-  }
+  
   return (
     <div className="flex-container">
       <div className="portafolio-container">
@@ -37,13 +30,13 @@ export default function Projects() {
 
           <div className="portafolio-item">
             <div className="videoBx">
-              <video
-                src={clip1}
-                type="video.mp4"
-                loop
+              <ReactPlayer 
+                url={clip1}
+                type="video.mp4" 
+                controls
                 muted
                 className="clip"
-                width="300px"
+                width="220px"
                 height="380px"
               />
             </div>
@@ -57,13 +50,13 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
-            <video
-              src={clip2}
+            <ReactPlayer
+              url={clip2}
               type="video.mp4"
-              loop
+              controls
               muted
               className="clip"
-              width="300px"
+              width="220px"
               height="380px"
             />
             <a href='https://github.com/Charly77955/MenuApp'><img className="gitHub" src={gitHub} alt=''/></a>
@@ -76,13 +69,13 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
-            <video
-              src={clip3}
+            <ReactPlayer
+              url={clip3}
               type="video.mp4"
-              loop
+              controls
               muted
               className="clip"
-              width="300px"
+              width="220px"
               height="380px"
             />
             <a href='https://github.com/Charly77955/AppReservacionVuelos'><img className="gitHub" src={gitHub} alt=''/></a>
@@ -95,10 +88,10 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
-            <video
-              src={clip4}
+            <ReactPlayer
+              url={clip4}
               type="video.mp4"
-              loop
+              controls
               muted
               className="clip4"
               width="280px"
