@@ -24,6 +24,9 @@
     height: 380px; 
     margin: 10px 0px 50px 0px;
   }
+  .videoBx{
+    margin: 0px 0px 5px 30px;
+  }
   .portafolio-h1{
     color: rgb(216, 212, 212);
     font-size: 40px;
@@ -65,7 +68,7 @@
     color: rgb(168, 163, 156);
   }
   .clip4{
-    margin: 0px auto;
+    margin: 0px 0px 5px 0px;
     object-fit: fill;
     border-radius: 10px;
   }

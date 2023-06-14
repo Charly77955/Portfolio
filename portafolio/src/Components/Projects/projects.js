@@ -50,6 +50,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
+          <div className="videoBx">
             <ReactPlayer
               url={clip2}
               type="video.mp4"
@@ -59,7 +60,9 @@ export default function Projects() {
               width="220px"
               height="380px"
             />
+            </div>
             <a href='https://github.com/Charly77955/MenuApp'><img className="gitHub" src={gitHub} alt=''/></a>
+          
           </div>
           <div className="projectDetails">
             <h5 className="detailTittleVuelos">Reservacion Vuelos App</h5>
@@ -69,6 +72,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
+          <div className="videoBx">
             <ReactPlayer
               url={clip3}
               type="video.mp4"
@@ -78,6 +82,7 @@ export default function Projects() {
               width="220px"
               height="380px"
             />
+            </div>
             <a href='https://github.com/Charly77955/AppReservacionVuelos'><img className="gitHub" src={gitHub} alt=''/></a>
           </div>
           <div className="projectDetails">
@@ -88,15 +93,17 @@ export default function Projects() {
             </div>
           </div>
           <div className="portafolio-item">
+          <div className="clip4">
             <ReactPlayer
               url={clip4}
               type="video.mp4"
               controls
               muted
               className="clip4"
-              width="280px"
-              height="360px"
+              width="300px"
+              height="285px"
             />
+            </div>
             <a href='https://github.com/Charly77955/WeatherPageProject'><img className="gitHub" src={gitHub} alt=''/></a>
           </div>
         </div>
